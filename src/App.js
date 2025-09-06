@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from "react";
 
 function App() {
@@ -47,7 +45,7 @@ function App() {
       <iframe
         src="/gameId=20055.html"
         title="Original HTML Game"
-        style={{ width: '100vw', height: '100vh', border: 'none' }}
+        style={{ width: '100vw', height: '100vh', minWidth: 320, minHeight: 480, border: 'none' }}
       />
     </div>
   );
